@@ -24,10 +24,6 @@ a {
   margin-left: -15px;
 }
 
-.col-12 {
-  margin-bottom: 25px;
-}
-
 section {
   @media (min-width: 768px) {
     padding: 95px 0 65px;
@@ -133,6 +129,9 @@ h4 {
   .align-right {
     text-align: center;
   }
+  .col-12 {
+    margin-bottom: 25px;
+  }
 }
 
 // section about
@@ -155,6 +154,9 @@ h4 {
       animation: bounce 1s infinite;
       animation-timing-function: steps(4, end);
     }
+  }
+  .col-12 {
+    margin-bottom: 25px;
   }
 }
 
@@ -314,7 +316,7 @@ h4 {
     margin-bottom: 15px;
   }
   .row {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   .separator {
     height: 1px;
@@ -504,6 +506,9 @@ h4 {
   }
   a {
     color: #000;
+  }
+  .col-12 {
+    margin-bottom: 25px;
   }
 }
 
