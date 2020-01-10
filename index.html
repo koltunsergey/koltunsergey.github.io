@@ -446,15 +446,14 @@
     <!-- /.team -->
 
     <section class="promo-video">
-        <video id="promo-video" controls="" poster="./media/video.jpg" preload="metadata">
+        <video id="video" controls="" poster="./media/video.jpg" preload="metadata">
             <source src="./media/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
             <source src="./media/video.webm" type='video/webm; codecs="vp8, vorbis"'>
         </video>
-        <div class="btn-play" onclick="playVid()">
-            <i class="far fa-play-circle"></i>
-        </div>
+        <i class="far fa-play-circle btn-play" id="playbtn" onclick="vid.play()"></i>
     </section>
     <!-- /.video -->
+
 
     <section class="skills">
         <div class="container">
@@ -718,7 +717,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./js/slick.min.js"></script>
-    <script src="./js/jquery.spincrement.js"></script>
+    <!-- <script src="./js/jquery.spincrement.js"></script> -->
     <script src="./js/lazysizes.min.js" async></script>
     <script src="./js/main.js "></script>
 </body>
