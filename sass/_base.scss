@@ -356,32 +356,25 @@ h4 {
     margin-bottom: 25px;
   }
   .bars {
-    transform: rotate(270deg);
+    margin-top: 25px;
     div {
       height: 30px;
       position: relative;
-      left: 55px;
-      bottom: 30px;
     }
   }
   progress {
     background-color: white;
     border: 0;
-    width: 75%;
+    width: 100%;
     height: 25px;
     margin-bottom: 10px;
     position: relative;
-    // top: 5px;
-    // left: 50px;
     &::-webkit-progress-bar {
       background-color: white;
     }
     &::-webkit-progress-value {
       background-color: black;
     }
-  }
-  .bars {
-    transform: rotate(270deg);
   }
   .skills-sign {
     font-family: sans-web, sans-serif;
@@ -393,6 +386,31 @@ h4 {
     bottom: 5px;
     color: #fff;
     z-index: 5;
+  }
+  @media (min-width: 1000px) {
+    .bars {
+      transform: rotate(270deg);
+      div {
+        height: 30px;
+        position: relative;
+        left: 55px;
+        bottom: 30px;
+      }
+    }
+    progress {
+      width: 75%;
+      height: 25px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    .skills-sign {
+      display: block;
+      position: absolute;
+      left: 5px;
+      bottom: 5px;
+      color: #fff;
+      z-index: 5;
+    }
   }
 }
 
