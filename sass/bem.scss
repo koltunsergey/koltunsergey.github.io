@@ -1,0 +1,28 @@
+.header {
+  background-color: #292929;
+  .header__menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+  }
+}
+
+.main__photos {
+  .main__photos-b {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .main__photos-s {
+    &:hover {
+      transform: rotate(15deg);
+    }
+    img {
+      max-height: 200px;
+    }
+  }
+}
+
+.footer {
+  background-color: #292929;
+}
