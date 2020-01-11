@@ -82,10 +82,6 @@ h1 {
   }
 }
 
-a:visited {
-  color: #666;
-}
-
 .menu-open {
   font-family: oswald-bold, sans-serif;
   font-size: 24px;
@@ -107,8 +103,17 @@ a:visited {
     padding: 24px 0;
     &:hover {
       background-color: #f9f9f9;
-      color: #292929;
+
       cursor: pointer;
+      a {
+        color: #292929;
+      }
+    }
+    a {
+      color: #fff;
+      &:visited {
+        color: #666;
+      }
     }
   }
 
