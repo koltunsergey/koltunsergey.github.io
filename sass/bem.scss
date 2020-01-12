@@ -2,8 +2,13 @@
   background-color: #292929;
   .header__menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 25px 0;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }
 
@@ -23,6 +28,15 @@
   }
 }
 
+.sidebar-1 {
+  margin-bottom: 20px;
+}
+
 .footer {
   background-color: #292929;
+  .footer__content {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
