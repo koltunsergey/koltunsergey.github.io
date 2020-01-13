@@ -5,7 +5,7 @@
 body {
   max-width: 1240px;
   padding-left: 15px;
-  padding-left: 15px;
+  padding-right: 15px;
   font-family: sans-web, sans-serif;
   font-size: 14px;
   line-height: 22px;
@@ -71,20 +71,5 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: max-content 1fr 0.25fr max-content;
     grid-template-areas: "header header header" "main main main" "sidebar sidebar sidebar" "footer footer footer";
-  }
-
-  .sidebar {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "sidebar-1 sidebar-2";
-    grid-area: sidebar;
-  }
-
-  .sidebar-1 {
-    grid-area: sidebar-1;
-  }
-
-  .sidebar-2 {
-    grid-area: sidebar-2;
   }
 }
