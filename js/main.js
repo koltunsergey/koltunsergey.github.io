@@ -126,6 +126,22 @@ for (var i = 0; i < btns.length; i++) {
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
     });
-}
+};
 
 // counter
+
+$('.counter').counterUp({
+    delay: 10,
+    time: 2000
+});
+
+
+// const el = document.querySelector('.count-number')
+// new Waypoint({
+//     element: el,
+//     handler: function () {
+//         counterUp(el)
+//         this.destroy()
+//     },
+//     offset: 'bottom-in-view'
+// })

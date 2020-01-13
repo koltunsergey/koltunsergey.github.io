@@ -279,10 +279,12 @@ h4 {
     display: inline-block;
     margin-bottom: 15px;
   }
-  .count-number {
+  .counter {
     font-family: oswald-bold;
     font-size: 22px;
     color: #000;
+    animation-duration: 1s;
+    animation-delay: 0s;
   }
 }
 
